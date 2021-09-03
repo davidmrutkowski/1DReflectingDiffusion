@@ -1,7 +1,7 @@
 1D-ReflectingDiffusion.py seeks to determine the D, koff values based on intensity data from a linescan
 from photobleached region on cell. The code was used to fit FRAP data in:
 
-V. Gerganova, I. Lamas, D. M. Rutkowski, A. Vještica, D. G. Castro, V. Vincenzetti, D. Vavylonis, S. G. Martin, "Cell patterning by secretion-induced plasma membrane flows," (Science Advances, to appear) bioRxiv https://doi.org/10.1101/10.1101/2020.12.18.423457 (2020)
+V. Gerganova, I. Lamas, D. M. Rutkowski, A. Vještica, D. G. Castro, V. Vincenzetti, D. Vavylonis, S. G. Martin, "Cell patterning by secretion-induced plasma membrane flows," (Science Advances, to appear) bioRxiv https://doi.org/10.1101/10.1101/2020.12.18.423457 
 
 It does this by minimizing the error between a model recovery curve, 
 as described in Gerganova et al. and the given recovery curve using SciPy's optimize.curve_fit function.
